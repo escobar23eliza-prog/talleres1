@@ -1,0 +1,10 @@
+POST http://127.0.0.1:5000/marcaciones
+Content-Type: application/json
+
+{
+  "cedula": "0123456789",
+  "tipo": 9,
+  "codigo_reloj": "RELOJ001",
+  "fecha": "2026-08-11",
+  "hora": "08:15"
+}
